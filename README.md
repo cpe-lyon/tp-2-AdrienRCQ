@@ -1,7 +1,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8488231&assignment_repo_type=AssignmentRepo)
 [TP2 :]{.ul}
 
-# Table des matières {#table-des-matières .TOC-Heading}
+# Table des matières 
 
 [Exercice 1 : Variable d'environnement :
 2](#exercice-1-variable-denvironnement)
@@ -43,8 +43,7 @@ crochets :
 
 # Exercice 1 : Variable d'environnement :
 
-![](vertopal_d4badf5690024eee9384a735615ca074/media/image1.png){width="6.3in"
-height="3.00625in"}
+![](vertopal_d4badf5690024eee9384a735615ca074/media/image1.png)
 
 1)  Les commandes tapées par l'utilisateurs sont stockées sur :
     /home/myuser/.bash_history
@@ -64,8 +63,7 @@ height="3.00625in"}
 -   \$\_. contient tous les noms de fichier absolu du shell ou du script
     qui a été exécuter.
 
-4)  ![](vertopal_d4badf5690024eee9384a735615ca074/media/image2.png){width="3.125in"
-    height="0.5694444444444444in"}
+4)  ![](vertopal_d4badf5690024eee9384a735615ca074/media/image2.png)
 
 5)  Après avoir tapé la commande bash, la variable **MY_VAR** n\'existe
     plus. La commande bash permet de créer un fils au terminal, la
@@ -75,27 +73,22 @@ height="3.00625in"}
     **printenv MY_VAR** renvoie bien *toto* car les variables
     d\'environnements sont bien transférées.
 
-![](vertopal_d4badf5690024eee9384a735615ca074/media/image3.png){width="3.2504538495188102in"
-height="0.9063768591426071in"}
+![](vertopal_d4badf5690024eee9384a735615ca074/media/image3.png)
 
-7)  ![](vertopal_d4badf5690024eee9384a735615ca074/media/image4.png){width="3.9901399825021873in"
-    height="0.552159886264217in"}
+7)  ![](vertopal_d4badf5690024eee9384a735615ca074/media/image4.png)
 
-8)  ![](vertopal_d4badf5690024eee9384a735615ca074/media/image5.png){width="4.156829615048119in"
-    height="0.3854702537182852in"}
+8)  ![](vertopal_d4badf5690024eee9384a735615ca074/media/image5.png)
 
 9)  La commande **unset** détruit la variable alors au lieu de vider la
     variable.
 
-10) ![](vertopal_d4badf5690024eee9384a735615ca074/media/image6.png){width="3.8963768591426073in"
-    height="0.4271434820647419in"}
+10) ![](vertopal_d4badf5690024eee9384a735615ca074/media/image6.png)
 
 # Exercice 2 : Contrôle de mot de passe :
 
 Avant de commencer nous allons ajouter le chemin vers script à notre
 PATH de façon permanente :
-![](vertopal_d4badf5690024eee9384a735615ca074/media/image7.png){width="5.875820209973753in"
-height="0.5729965004374453in"}
+![](vertopal_d4badf5690024eee9384a735615ca074/media/image7.png)
 
 Voici le script :
 
@@ -173,8 +166,7 @@ l'utilisateur puisse avoir le résultat de la vérification.
 Voici le résultat dans les deux cas possible :
 
 ![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image11.png){width="2.448257874015748in"
-height="1.7606627296587927in"}
+automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image11.png)
 
 # Exercice 4 : Contrôle utilisateur :
 
@@ -204,8 +196,7 @@ fi
 Voici le résultat dans les deux cas possible :
 
 ![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image13.png){width="2.7191294838145232in"
-height="1.6564807524059493in"}
+automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image13.png)
 
 # Exercice 5 : Factorielle :
 ```bash
@@ -236,8 +227,7 @@ Notre première condition (if) vérifie si l'argument rentré est bien vide
 ou pas.
 
 ![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image15.png){width="1.9481889763779527in"
-height="0.8542858705161854in"}
+automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image15.png)
 
 # Exercice 6 : Le juste prix :
 
@@ -274,8 +264,7 @@ done
 Voici le résultat avec les 3 cas possibles (petit/grand/OK) :
 
 ![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image17.png){width="3.144183070866142in"
-height="3.6995188101487315in"}
+automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image17.png)
 
 # Exercice 7 : Statistique :
 
@@ -353,8 +342,7 @@ Pour banaliser le nombre de paramètre a rentrer il suffit de supprimer
 notre vérification sur le nombre de paramètre rentré :
 
 ![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image20.png){width="6.3in"
-height="3.716666666666667in"}
+automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image20.png)
 
 Voici donc le code final:
 ```bash
@@ -516,31 +504,26 @@ variables.
 ## [1) Opérateurs de comparaison de nombre avec la commande test ou les crochets :]{.ul} 
 
 ![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image21.png){width="5.461538713910761in"
-height="2.6121708223972004in"}
+automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image21.png)
 
-## [2) Opérateur booléens de comparaison de nombres :]{.ul}
+## [2) Opérateur booléens de comparaison de nombres :]
 
-![](vertopal_d4badf5690024eee9384a735615ca074/media/image22.png){width="5.2307688101487315in"
-height="2.758377077865267in"}
+![](vertopal_d4badf5690024eee9384a735615ca074/media/image22.png)
 
-## [3) Opérateurs de comparaison :]{.ul}
+## [3) Opérateurs de comparaison :]
 
 ![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image23.png){width="5.830517279090114in"
-height="4.1987182852143485in"}
+automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image23.png)
 
-## [4) Variables prédéfinies :]{.ul}
-
-![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image24.png){width="5.134615048118985in"
-height="2.325632108486439in"}
-
-## [5) Exemple d'un boucle FOR :]{.ul}
+## [4) Variables prédéfinies :]
 
 ![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image25.png){width="4.133333333333334in"
-height="1.399646762904637in"}
+automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image24.png)
+
+## [5) Exemple d'un boucle FOR :]
+
+![Une image contenant texte Description générée
+automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image25.png)
 
 -   **\#!/bin/bash** -- montre que le code est un script bash.
 
@@ -564,10 +547,9 @@ height="1.399646762904637in"}
 
 -   **done** -- arrête la boucle.
 
-## [6) Exemple d'une boucle WHILE :]{.ul}
+## [6) Exemple d'une boucle WHILE :]
 
-![](vertopal_d4badf5690024eee9384a735615ca074/media/image26.png){width="2.4625in"
-height="2.3777777777777778in"}
+![](vertopal_d4badf5690024eee9384a735615ca074/media/image26.png)
 
 Ici, la condition représente l'état qui doit être vérifié à chaque fois
 avant d'exécuter des commandes dans la boucle.
@@ -585,8 +567,7 @@ a boucle se répète indéfiniment.
 
 ## [7) Exemple d'une condition IF et ELSE :]{.ul}
 
-![](vertopal_d4badf5690024eee9384a735615ca074/media/image27.png){width="3.1in"
-height="1.9097222222222223in"}
+![](vertopal_d4badf5690024eee9384a735615ca074/media/image27.png)
 
 -   expression : est un ensemble d'une ou plusieurs conditions
 
