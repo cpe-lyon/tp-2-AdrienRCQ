@@ -99,9 +99,27 @@ height="0.5729965004374453in"}
 
 Voici le script :
 
-![Une image contenant texte Description générée
-automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image8.png){width="6.3in"
-height="3.622916666666667in"}
+```bash
+#!/bin/bash
+
+#Vérification si la chaine est vide
+if [ "$1" == "" ]; then
+    echo Utilisation : $0 nom_utilisateur
+#$0 est la variable bash = nom du fichier
+    exit 1
+fi
+
+
+# Vérification que l'utilisateur existe via compgen
+if compgen -u | grep -q -w $1 ; then
+    echo "L'utilisateur existe"
+    exit 0
+
+else
+    echo "L'utilisateur n'existe pas"
+    exit 1
+fi
+```
 
 Voici le résultat, avec le bon et avec le mauvais mot de passe :
 
