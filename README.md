@@ -268,7 +268,7 @@ automatiquement](vertopal_d4badf5690024eee9384a735615ca074/media/image17.png)
 
 # Exercice 7 : Statistique :
 
-[Partie 1 :]{.ul}
+[Partie 1 :]
 ```bash
 #!/bin/bash
 
@@ -336,7 +336,7 @@ echo moyenne : $moyenne
 
 ```
 
-[Partie2 :]{.ul}
+[Partie2 :]
 
 Pour banaliser le nombre de paramètre a rentrer il suffit de supprimer
 notre vérification sur le nombre de paramètre rentré :
@@ -565,7 +565,7 @@ ATTENTION aux boucles infinies : Si la condition ne peut pas/plus
 changer (ce qui permettrai en temps normale de passer à la suite) alors
 a boucle se répète indéfiniment.
 
-## [7) Exemple d'une condition IF et ELSE :]{.ul}
+## [7) Exemple d'une condition IF et ELSE :]
 
 ![](vertopal_d4badf5690024eee9384a735615ca074/media/image27.png)
 
